@@ -6,7 +6,7 @@ import static pokerhand.model.Suit.*;
 /**
  * Created by tvo on 8/27/16.
  */
-public class Card {
+public class Card implements Comparable<Card> {
     public static final Card TWO_HEART = new Card(TWO, HEART);
     public static final Card TWO_CLUB = new Card(TWO, CLUB);
     public static final Card TWO_DIAMOND = new Card(TWO, DIAMOND);
@@ -113,5 +113,16 @@ public class Card {
         int result = rank.hashCode();
         result = 31 * result + suit.hashCode();
         return result;
+    }
+
+    @Override
+    public int compareTo(Card otherCard) {
+        if (this.getRank().getValue() > otherCard.getRank().getValue()) {
+            return 1;
+        }
+        if (this.getRank().getValue() < otherCard.getRank().getValue()) {
+            return -1;
+        }
+        return 0;
     }
 }
