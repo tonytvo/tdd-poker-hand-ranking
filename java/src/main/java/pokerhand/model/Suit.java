@@ -1,4 +1,4 @@
-package pokerhands.model;
+package pokerhand.model;
 
 /**
  * Created by tvo on 8/27/16.

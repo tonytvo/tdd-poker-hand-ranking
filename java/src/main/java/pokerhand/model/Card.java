@@ -1,7 +1,7 @@
-package pokerhands.model;
+package pokerhand.model;
 
-import static pokerhands.model.Rank.*;
-import static pokerhands.model.Suit.*;
+import static pokerhand.model.Rank.*;
+import static pokerhand.model.Suit.*;
 
 /**
  * Created by tvo on 8/27/16.
