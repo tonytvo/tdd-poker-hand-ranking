@@ -1,9 +1,13 @@
 # Poker Hands
 
+- TheKrooKrooMan: https://www.youtube.com/watch?v=FHTHjwi_WuI
+- My attempt: 
+  - part 1: https://www.youtube.com/watch?v=ZdNrs_1SldQ
+  - part 2: https://www.youtube.com/watch?v=pTotzewbsjE
 
 # Usage
 
-The purpose of this is to provide good examples for the TDD workshop.
+The purpose of this is to provide good examples for Poker Hands TDD kata.
 
 Build
 -----
